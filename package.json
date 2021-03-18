@@ -4,7 +4,7 @@
   "description": "travel site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,18 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "css-loader": "^5.1.2",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.2.0",
+    "postcss-mixins": "^7.0.3",
+    "postcss-nested": "^5.0.5",
+    "postcss-simple-vars": "^6.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
