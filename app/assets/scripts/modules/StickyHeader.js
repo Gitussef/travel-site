@@ -72,5 +72,5 @@ class StickyHeader {
     }
   }
 }
-
+console.log("");
 export default StickyHeader;

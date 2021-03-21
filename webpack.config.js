@@ -40,7 +40,7 @@ let pages = fse
       template: `./app/${page}`,
     });
   });
-
+console.log("");
 let config = {
   entry: "./app/assets/scripts/App.js",
   plugins: pages,

@@ -18,3 +18,5 @@ class MobileMenu {
 }
 
 export default MobileMenu;
+
+console.log("");

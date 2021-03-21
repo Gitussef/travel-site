@@ -55,4 +55,6 @@ class Modal {
   }
 }
 
+console.log("");
+
 export default Modal;
